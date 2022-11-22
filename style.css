@@ -1,0 +1,259 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Tahoma, Geneva,
+    Verdana, sans-serif;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background: transparent;
+  color: white;
+}
+.img {
+  width: 260px;
+  height: 80px;
+  object-fit: contain;
+}
+.btn  {
+  background-color: rgb(192, 2, 2);
+  width: 5rem;
+  color: white;
+  height: 2.5rem;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 20px 50px;
+}
+.btn:hover{
+  background-color: rgb(244, 67, 67);
+  color: white;
+
+}
+
+.hero-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.706)
+    ),
+    url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.first {
+  color: white;
+  padding: 120px;
+  justify-content: center;
+  text-align: center;
+  /* line-height: 5rem; */
+}
+.first h1 {
+  font-size: 3.125rem;
+  font-weight: 500;
+  width: 50%;
+  margin: auto;
+  line-height: 3rem;
+}
+.first h5 {
+  font-size: 26px;
+  font-weight: 400;
+  padding: 20px;
+}
+.first p {
+  font-size: 18px;
+  padding: 20px;
+}
+.form {
+  /* align-items: center; */
+  /* display: flex; */
+}
+.form input {
+  padding: 20px;
+  width: 40%;
+
+  border: 0;
+  outline: 0;
+}
+.form input:hover {
+  outline: 1px solid blue;
+}
+.btn2 {
+  padding: 17px;
+  margin-left: -3px;
+  margin-top: -200px;
+  background-color: rgb(192, 2, 2);
+  color: white;
+  font-size: 20px;
+  border: 0;
+  width: 200px;
+}
+.tv-section {
+  background: black;
+  border-bottom: 8px solid rgb(83, 79, 79);
+  border-top: 8px solid rgb(83, 79, 79);
+  height: 80vh;
+}
+.tv {
+  display: flex;
+  margin: 0 80px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* gap: 2rem; */
+}
+.tv-section img {
+  height: 90%;
+  width: 50%;
+  object-fit: contain;
+}
+.tv-left h1 {
+  font-size: 50px;
+  font-weight: 600;
+  width: 80%;
+  padding: 10px 0;
+}
+.tv-left h4 {
+  font-size: 25px;
+  font-weight: 500;
+  width: 83%;
+}
+.download-section {
+  background: black;
+  border-bottom: 8px solid rgb(83, 79, 79);
+
+  height: 80vh;
+}
+.download {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* gap: 2rem; */
+}
+.download-section img {
+  height: 80%;
+  width: 50%;
+  object-fit: contain;
+}
+.download-right h1 {
+  font-size: 50px;
+  font-weight: 600;
+  width: 80%;
+  padding: 10px 0;
+}
+.download-right h4 {
+  font-size: 25px;
+  font-weight: 500;
+  width: 88%;
+}
+
+.watch {
+  background: black;
+  border-bottom: 8px solid rgb(83, 79, 79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40vh;
+}
+.watch-tv {
+  margin: 0 80px;
+}
+.watch h1 {
+  font-size: 50px;
+  font-weight: 600;
+  width: 70%;
+  padding: 10px 0;
+}
+.watch h4 {
+  font-size: 25px;
+  font-weight: 500;
+  width: 60%;
+}
+.kids-section {
+  background: black;
+  border-bottom: 8px solid rgb(83, 79, 79);
+  height: 80vh;
+}
+.kids {
+  display: flex;
+  margin: 0 80px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* gap: 2rem; */
+}
+.kids img {
+  height: 90%;
+  width: 50%;
+  object-fit: contain;
+}
+.kids h1 {
+  font-size: 50px;
+  font-weight: 600;
+  width: 100%;
+  padding: 10px 0;
+}
+.kids h4 {
+  font-size: 25px;
+  font-weight: 500;
+  width: 95%;
+}
+.faq{
+    background-color: black;
+    border-bottom: 8px solid rgb(83, 79, 79);
+    text-align: center;
+  height: 120vh;
+  color: white;
+  margin:auto ;
+  
+  
+}
+.faq h1{
+    font-size:50px ;
+    font-weight: 600;
+    padding: 10px;
+}
+.faq p{
+    font-size:20px ;
+    font-weight: 400;
+    padding: 10px;
+}
+.question{
+    background-color:rgb(56, 55, 55) ;
+    width: 80%;
+    height: 8px;
+    display: flex;
+    font-size: 25px;
+    padding: 35px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    margin: 10px 0;
+    
+}
+.last{
+    margin-left:220px;
+}
+
+
+/* sign in */
+/* .inp{
+  background-color: rgba(0, 0, 0, 0.367);
+  height: 100vh;
+  width: 40%;
+
+
+} */
