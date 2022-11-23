@@ -249,6 +249,53 @@ header {
 }
 
 
+.footer{
+  background:black;
+  color: #737373;
+}
+
+.footer-wrapper > .questions{
+  padding-top: 78.5px;
+  padding-left: 192px;
+  margin-bottom: 30px;
+}
+
+.questions{
+  color: #737373;
+}
+
+.columns {
+  display:flex;
+  justify-content: space-between;
+  width:900px;
+  height:128px;
+  margin: 30px auto;
+}
+
+.list-items{
+  list-style-type: none;
+  font-size: 13px;
+  padding: 0px 12px 0px 0px;
+  margin: 0px 0px 16px;
+}
+
+.footer-anchor {
+  text-decoration: none;
+  color: #737373;
+}
+
+.footer-anchor:hover,
+.questions:hover{
+  text-decoration: underline;
+}
+
+.end{
+  margin-top: 0;
+  padding-left: 192px;
+  padding-bottom: 30px;
+}
+
+
 /* sign in */
 /* .inp{
   background-color: rgba(0, 0, 0, 0.367);
